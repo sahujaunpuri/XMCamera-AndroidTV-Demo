@@ -1,0 +1,42 @@
+[
+  {
+    "title": "",
+    "cards": [
+      {
+        "id": 0,
+        "type": "DEFAULT",
+        "title": "1. User",
+        "localImageResource": "thumbnail_example_cards",
+        "description": "Register, Login, User Info, Forgot Password"
+      },
+      {
+        "id": 1,
+        "type": "DEFAULT",
+        "title": "2. Device",
+        "localImageResource": "thumbnail_example_browse",
+        "description": "Connect, Add By User, Device List"
+      },
+      {
+        "id": 2,
+        "type": "DEFAULT",
+        "title": "3. Media",
+        "localImageResource": "thumbnail_example_grid",
+        "description": "Empty"
+      },
+      {
+        "id": 3,
+        "type": "DEFAULT",
+        "title": "4. Play URL",
+        "localImageResource": "thumbnail_example_grid",
+        "description": "Play 4 URLs"
+      },
+      {
+        "id": 4,
+        "type": "DEFAULT",
+        "title": "5. MultiScreen",
+        "localImageResource": "thumbnail_example_detail",
+        "description": "Grid View of Camera View"
+      }
+    ]
+  }
+]
