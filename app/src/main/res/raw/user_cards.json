@@ -1,0 +1,42 @@
+[
+  {
+    "title": "",
+    "cards": [
+      {
+        "id": 0,
+        "type": "DEFAULT",
+        "title": "1. Register",
+        "localImageResource": "thumbnail_example_cards",
+        "description": "Create new account"
+      },
+      {
+        "id": 1,
+        "type": "DEFAULT",
+        "title": "2. Login",
+        "localImageResource": "thumbnail_example_browse",
+        "description": "Login into existed account"
+      },
+      {
+        "id": 2,
+        "type": "DEFAULT",
+        "title": "3. Modify",
+        "localImageResource": "thumbnail_example_grid",
+        "description": "Edit Account Information"
+      },
+      {
+        "id": 3,
+        "type": "DEFAULT",
+        "title": "4. Forgot",
+        "localImageResource": "thumbnail_example_grid",
+        "description": "Forgot password"
+      },
+      {
+        "id": 4,
+        "type": "DEFAULT",
+        "title": "5. User Info",
+        "localImageResource": "thumbnail_example_detail",
+        "description": "Detail information"
+      }
+    ]
+  }
+]
