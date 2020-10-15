@@ -1,0 +1,21 @@
+[
+  {
+    "title": "",
+    "cards": [
+      {
+        "id": 0,
+        "type": "DEFAULT",
+        "title": "4. Add By User",
+        "localImageResource": "thumbnail_example_cards",
+        "description": "Add device"
+      },
+      {
+        "id": 1,
+        "type": "DEFAULT",
+        "title": "7. User's List",
+        "localImageResource": "thumbnail_example_browse",
+        "description": "Device List"
+      }
+    ]
+  }
+]

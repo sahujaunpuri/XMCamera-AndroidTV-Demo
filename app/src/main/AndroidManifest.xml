@@ -41,7 +41,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".user.UserActivity" />
+        <activity android:name="com.example.androidtv.ui.user.UserActivity" />
         <activity android:name=".MultiScreenActivity"
             android:theme="@style/AppThemeCompat"/>
         <activity
@@ -60,6 +60,10 @@
         <activity android:name=".DetailsActivity" />
         <activity android:name=".PlaybackActivity" />
         <activity android:name=".BrowseErrorActivity" />
+        <activity android:name=".ui.cloud.ActivityDevCloudPlayBack" />
+        <activity android:name=".ui.cloud.ActivityDevCloudTest" />
+        <activity android:name=".ui.device.DeviceActivity" />
+        <activity android:name=".ui.device.DeviceListUsersActivity" />
     </application>
 
 </manifest>

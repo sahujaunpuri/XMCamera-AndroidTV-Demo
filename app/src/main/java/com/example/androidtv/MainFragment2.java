@@ -37,7 +37,8 @@ import androidx.leanback.app.BrowseSupportFragment;
 import com.example.androidtv.cards.presenters.CardPresenterSelector;
 import com.example.androidtv.model.Card;
 import com.example.androidtv.model.CardRow;
-import com.example.androidtv.user.UserActivity;
+import com.example.androidtv.ui.device.DeviceActivity;
+import com.example.androidtv.ui.user.UserActivity;
 import com.example.androidtv.utils.Utils;
 import androidx.leanback.widget.ArrayObjectAdapter;
 import androidx.leanback.widget.ListRow;
@@ -126,12 +127,15 @@ public class MainFragment2 extends BrowseSupportFragment {
                 case 0: {
                     intent = new Intent(getActivity().getBaseContext(),
                             UserActivity.class);
-                    Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity())
-                            .toBundle();
-                    startActivity(intent, bundle);
+                    startActivity(intent, ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity())
+                            .toBundle());
                     break;
                 }
                 case 1:
+                    intent = new Intent(getActivity().getBaseContext(),
+                            DeviceActivity.class);
+                    startActivity(intent, ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity())
+                            .toBundle());
                     break;
                 case 2: {
                     break;
@@ -142,9 +146,8 @@ public class MainFragment2 extends BrowseSupportFragment {
                 case 4: {
                     intent = new Intent(getActivity().getBaseContext(),
                             MultiScreenActivity.class);
-                    Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity())
-                            .toBundle();
-                    startActivity(intent, bundle);
+                    startActivity(intent, ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity())
+                            .toBundle());
                     break;
                 }
                 default:
