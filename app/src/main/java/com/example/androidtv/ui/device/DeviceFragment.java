@@ -134,7 +134,7 @@ public class DeviceFragment extends BrowseSupportFragment {
                 }
                 case 1: {
                     intent = new Intent(getActivity().getBaseContext(),
-                            DeviceListUsersActivity.class);
+                            DeviceListActivity.class);
                     startActivity(intent, ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity())
                             .toBundle());
                     break;

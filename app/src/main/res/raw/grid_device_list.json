@@ -1,0 +1,46 @@
+{
+  "cards": [
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 1",
+      "description": "Device 1",
+      "localImageResource": "xmjp_camera"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 2",
+      "description": "Device 2",
+      "localImageResource": "xmjp_camera"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 3",
+      "description": "Device 3",
+      "localImageResource": "xmjp_camera"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 4",
+      "description": "Device 4",
+      "localImageResource": "xmjp_camera"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 1",
+      "description": "Device 1",
+      "localImageResource": "xmjp_camera"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 5",
+      "description": "Device 5",
+      "localImageResource": "xmjp_camera"
+    },
+    {
+      "type": "GRID_SQUARE",
+      "title": "Device 6",
+      "description": "Device 6",
+      "localImageResource": "xmjp_camera"
+    }
+  ]
+}

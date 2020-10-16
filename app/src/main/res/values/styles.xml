@@ -3,6 +3,10 @@
     <style name="AppTheme" parent="@style/Theme.Leanback" />
     <style name="AppThemeCompat" parent="Theme.AppCompat.NoActionBar" />
 
+    <style name="Theme.Example.LeanbackVerticalGrid" parent="Theme.Leanback.VerticalGrid">
+        <item name="android:windowBackground">@drawable/background_food</item>
+    </style>
+
     <!--
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
