@@ -16,10 +16,12 @@ package com.example.androidtv.ui.device;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.Toast;
 
 import androidx.leanback.app.VerticalGridFragment;
 import com.example.androidtv.R;
 import com.example.androidtv.cards.presenters.CardPresenterSelector;
+import com.example.androidtv.model.Card;
 import com.example.androidtv.model.CardRow;
 import com.example.androidtv.utils.Utils;
 import androidx.leanback.widget.ArrayObjectAdapter;
@@ -79,11 +81,11 @@ public class DeviceListFragment extends VerticalGridFragment implements
 
     @Override
     public void onItemClicked(Presenter.ViewHolder itemViewHolder, Object item, RowPresenter.ViewHolder rowViewHolder, Row row) {
-
+        Card i = (Card) item;
+        Toast.makeText(getActivity(), i.getId(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onItemSelected(Presenter.ViewHolder itemViewHolder, Object item, RowPresenter.ViewHolder rowViewHolder, Row row) {
-
     }
 }
